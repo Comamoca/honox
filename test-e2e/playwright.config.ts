@@ -18,7 +18,7 @@ export default defineConfig({
   ],
   webServer: {
     command: 'cd ../mocks && vite --port 6173 -c ./vite.config.ts',
-    port: 6173,
+    url: 'http://localhost:6173/',
     reuseExistingServer: !process.env.CI,
   },
 })
